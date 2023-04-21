@@ -1,0 +1,15 @@
+The objective is to predict the most suitable optimizer under available resources such as cpu, mem. the dataset is looks like this;
+
+optimizer,cpu,memory,time,epochs,predictions,dataset,loss,accuracy
+
+optimizer - optimizer that can be used for the model training [sgd, adam, adamax]
+cpu - cpu consumption for each epoch [calculated as a average percentage]
+memory - memory consumption for each epoch [calculated as a average percentage]
+time - time to execute each epoch [difference between epoch end and begin time]
+epochs - no of epochs [no of epochs till it meet earlystopping point, this can be different by the 
+predictions - prediction results that has been done using the trained model [contains out of 16 test cases]
+optimizer because the they have unique behavior]
+size - datasize size in MB
+loss and accuracy - final model loss and accuracy
+
+Modelling.zip contains the work that I have done so far.
