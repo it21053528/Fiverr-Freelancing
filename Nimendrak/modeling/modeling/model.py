@@ -11,10 +11,10 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler, OneHotEncoder
 
 import tensorflow as tf
-from tensorflow.keras.layers import Dense, Dropout
-from tensorflow.keras.regularizers import l2
-from tensorflow.keras.callbacks import EarlyStopping
-from tensorflow.keras.models import Sequential, load_model
+from keras.layers import Dense, Dropout
+from keras.regularizers import l2
+from keras.callbacks import EarlyStopping
+from keras.models import Sequential, load_model
 
 from plots.histrogram import histrogram
 
