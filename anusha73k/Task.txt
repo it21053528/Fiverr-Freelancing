@@ -1,0 +1,18 @@
+﻿1. Need to find which is the most accurate method to forecast demand.
+2. 3 years data set is going to be provided (If needed, you can generate it back to more years and can use. But should stick to that data set)
+3. Should use Python with ML
+4. Use trained models as much as possible
+5. Need to forecast demand using 
+   1. Simple Moving Average (SMA)
+   2. Exponential Smoothing (SES)
+   3. Autoregressive Integration Moving Average (ARIMA)
+   4. Neural Network (NN)
+   5. Croston 
+these 5 methods. 
+6. Then should find the most accurate one.
+7. Clearly show the method of evaluation and the method of calculating the accuracy.
+8.  Use Google Colab for coding
+9. All the coding and all related work needed
+10. Make a small interface to display demand forecasting using the most accurate method. (Use Flask)
+11. Need to add all the comments clearly
+12. One week of work
