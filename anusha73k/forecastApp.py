@@ -15,10 +15,10 @@ def app():
 
     # If a file was uploaded, read it into a Pandas dataframe
     if uploaded_file is not None:
-        y_test = pd.read_csv(uploaded_file, index_col=0, parse_dates=True, squeeze=True)
+        y_test = pd.read_csv(uploaded_file, index_col=0, parse_dates=True)
 
         # Load the Exponential Smoothing model from a pickle file
-        with open('anusha73k\ES_model.pkl', 'rb') as f:
+        with open('ES_model.pkl', 'rb') as f:
             model_ES = pickle.load(f)
 
         # Generate forecasts for the testing set
